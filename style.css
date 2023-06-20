@@ -1,0 +1,39 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#display {
+    border: 2px solid red;
+    width: 400px;
+    height: 50vh;
+    display: flex;
+}
+
+#list {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: aqua;
+}
+
+#done {
+    display: none;
+    width: 100%;
+    height: auto;
+    background: lightcyan;
+}
+
+#notdone {
+    display: none;
+    width: 100%;
+    height: auto;
+    background: lightgreen;
+}

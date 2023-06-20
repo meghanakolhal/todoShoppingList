@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h1 style="text-align: center;">Products</h1>
+    <div id='container'>
+        <div id="top">
+            <input id="getItems" type="text" placeholder="Add Products" />
+            <p id="alertmsg"></p>
+            <button id="add" onclick="addFunc()">Add</button>
+        </div>
+        <h4><u>Shopping cart</u></h4>
+        <div id=btns>
+            <button id="All">All</button>
+            <button id="doneList">Done</button>
+            <button id="notDoneList">Not Done</button>
+            <div id="display">
+                <div id="list"></div>
+                <div id="done"></div>
+                <div id="notdone"></div>
+            </div>
+        </div>
+        <button id="deleteAll">Delete All Items</button>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+    <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
